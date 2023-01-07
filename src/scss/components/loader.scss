@@ -1,0 +1,125 @@
+div.cl1 {
+  display: inline-block;
+  width: 14px;
+  border-radius: 50%;
+  height: 14px;
+  position: relative;
+  -webkit-animation: mymove 2s infinite; 
+  -webkit-animation-timing-function: linear; 
+  animation: mymove 2s infinite;
+  animation-timing-function: linear;
+}
+div.cl2 {
+  animation: mymove1 3s infinite !important;
+}
+div.cl3 {
+  animation: mymove2 4s infinite !important;
+}
+div.cl4 {
+  animation: mymove3 5s infinite !important;
+}
+
+@-webkit-keyframes mymove {
+  from {
+    left: 0%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: red;
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 0%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: red;
+  }
+}
+
+@-webkit-keyframes mymove1 {
+  from {
+    left: 0%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: green;
+  }
+}
+
+@keyframes mymove1 {
+  from {
+    left: 0%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: green;
+  }
+}
+
+@-webkit-keyframes mymove2 {
+  from {
+    left: 20%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: orange;
+  }
+}
+
+@keyframes mymove2 {
+  from {
+    left: 20%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: orange;
+  }
+}
+@-webkit-keyframes mymove3 {
+  from {
+    left: 10%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: blue;
+  }
+}
+
+@keyframes mymove3 {
+  from {
+    left: 10%;
+    background: white;
+  }
+  to {
+    left: 100%;
+    background: blue;
+  }
+}
+.loader {
+  width: 70%;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin:50px auto;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.blink {
+  animation: blink 2s linear infinite;
+  font-family: 'Roboto', sans-serif;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
