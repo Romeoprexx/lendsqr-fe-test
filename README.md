@@ -1,5 +1,10 @@
 # Lendsqr Front-End Engineering Test for Candidates
 
+## About Lendsqr
+A Lending-as-a-Service Solution which powers lenders to build, launch, and scale their digital lending business across multiple channels, at the lowest cost.
+
+We provide our lenders from various industries with a cloud lending platform to make the activities of your LaaS business run smoothly by implementing novel solutions and superior domain expertise. We’re passionate about making lenders succeed.
+
 ## Project Description
 This project was completed as an assessment test for the role of a remote Frontend Engineer at [Lendsqr](https://www.lendsqr.com/)
 
@@ -15,23 +20,7 @@ These tech stacks were used as per the stack requirements of the test:
 * React
 * SCSS
 
-Other technologies I used: 
-* React Router for client-side navigation
-* Axios and React Query for asynchronous data fetching.
-* HeadlessUI for popovers and menu dropdowns. [link](https://headlessui.com/)
 
-File paths to important sections of code
-* [Login page](https://github.com/ayomtuase/lendsqr-fe-test/blob/master/src/pages/Login.tsx)
-* [Dashboard structure](https://github.com/ayomtuase/lendsqr-fe-test/blob/master/src/pages/Dashboard/index.tsx)
-* [Users page](https://github.com/ayomtuase/lendsqr-fe-test/blob/master/src/pages/Dashboard/Users.tsx)
-* [Single Users page](https://github.com/ayomtuase/lendsqr-fe-test/blob/master/src/pages/Dashboard/SingleUser.tsx)
-
-
-## My Results
-
-* [Login page](https://ayomide-mofolorunso-oguntuase-lendsqr-fe-test.vercel.app)
-* [Dashboard and Users page](https://ayomide-mofolorunso-oguntuase-lendsqr-fe-test.vercel.app/dashboard)
-* [Individual Users page](https://ayomide-mofolorunso-oguntuase-lendsqr-fe-test.vercel.app/dashboard/users/1)
 
 
 ## Other guides from React
