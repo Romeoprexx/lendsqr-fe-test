@@ -342,6 +342,7 @@
       row-gap: 30px;
       padding-bottom: 30px;
       border-bottom: 1px solid rgba(#213f7d, 0.1);
+      column-gap: 50px;
 
       @media (max-width: 1200px) {
         grid-template-columns: repeat(3, 1fr) !important;
